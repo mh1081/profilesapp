@@ -31,6 +31,7 @@ function UserProfile({ user, signOut }) {
   return (
     <main style={{ padding: '2rem', textAlign: 'center' }}>
       <h1>Welcome to Profiles App!</h1>
+      <h2>Created by McKeonly Huckins-MH1081</h2>
       <p>You are signed in as:</p>
       <h2>{email}</h2>
       <button onClick={signOut}>Sign Out</button>
